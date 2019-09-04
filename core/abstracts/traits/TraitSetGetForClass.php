@@ -44,4 +44,26 @@ trait TraitSetGetForClass
             return $this->valueArray[$key];
         }
     }
+
+    /**
+     * Существует ли магическая переменная
+     *
+     * @param $key
+     *
+     * @return bool
+     */
+    public function __isset($key)
+    {
+        return isset($this->valueArray[$key]);
+    }
+
+    /**
+     * Уничтожение магической переменной
+     *
+     * @param $key
+     */
+    public function __unset($key)
+    {
+        unset($this->valueArray[$key]);
+    }
 }
