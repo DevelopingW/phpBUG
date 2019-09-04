@@ -14,14 +14,14 @@ $test = new TestClass();
 $test->varTest = 10234;
 
 if (empty($test->varTest)) {
-    echo "1) Переменная равна нулю, значение: (" . $test->varTest . ")\n";
+    echo "1) Переменная пуста, значение: (" . $test->varTest . ")\n";
 }
 
 if (empty(($test->varTest))) {
-    echo "2) Переменная равна нулю, значение: (" . $test->varTest . ")\n";
+    echo "2) Переменная пуста, значение: (" . $test->varTest . ")\n";
 }
 
 $varTest = $test->varTest;
 if (empty($varTest)) {
-    echo "3) Переменная равна нулю, значение: (" . $test->varTest . ")\n";
+    echo "3) Переменная пуста, значение: (" . $test->varTest . ")\n";
 }
