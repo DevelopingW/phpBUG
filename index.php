@@ -1,7 +1,7 @@
 <?php
 
 $homePath = realpath(dirname(__FILE__));
-$dS= DIRECTORY_SEPARATOR;
+$dS = DIRECTORY_SEPARATOR;
 
 require_once($homePath.$dS.'core'.$dS.'abstracts'.$dS.'traits'.$dS.'TraitSetGetForClass.php');
 
