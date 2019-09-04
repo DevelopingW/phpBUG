@@ -11,7 +11,7 @@ class TestClass
 }
 
 $test = new TestClass();
-$test->varTest = 10;
+$test->varTest = 10234;
 
 if (empty($test->varTest)) {
     echo "1) Переменная равна нулю, значение: (" . $test->varTest . ")\n";
