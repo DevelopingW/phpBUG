@@ -41,7 +41,7 @@ trait TraitSetGetForClass
      */
     public function __get($key)
     {
-        if (!empty($this->valueArray[$key])) {
+        if (isset($this->valueArray[$key])) {
             return $this->valueArray[$key];
         }
     }
