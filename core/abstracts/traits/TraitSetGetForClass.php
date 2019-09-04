@@ -8,6 +8,7 @@ namespace core\abstracts\traits;
  * Класс работает с магическими методами __set __get
  *
  * @package core\abstracts\traits
+ * @author Anton Kalochelitis fire.anton@gmail.com
  */
 trait TraitSetGetForClass
 {
